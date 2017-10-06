@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "338304549965",
+    "firebase_url": "https://ottimashopping.firebaseio.com",
+    "project_id": "ottimashopping",
+    "storage_bucket": "ottimashopping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338304549965:android:bc7c64501ca9a309",
+        "android_client_info": {
+          "package_name": "com.foursquad.ottimashopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338304549965-sk7j1a3bistfp3s2ffpd4e7q7usaa3cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foursquad.ottimashopping",
+            "certificate_hash": "f238d7a67b155711ad2dd01bbc2f84392407e912"
+          }
+        },
+        {
+          "client_id": "338304549965-jhjlidbrbo2a79p99khbqevnjv4uspo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYeAwdKpVBfcyKvv5KNhOG4yzfpuo6ls0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338304549965-jhjlidbrbo2a79p99khbqevnjv4uspo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

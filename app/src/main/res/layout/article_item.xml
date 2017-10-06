@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="fitXY"
+            tools:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingEnd="0dp"
+            android:paddingStart="16dp"
+            tools:background="@color/yellow">
+
+            <TextView
+                android:id="@+id/marque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:background="@color/colorAccent"
+                tools:text="Vest Cuire" />
+
+            <TextView
+                android:id="@+id/qte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:background="@color/teal"
+                tools:text="Exist" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.foursquad.ottimashopping.utils.CheckView
+                    android:id="@+id/xs"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    custom:circleColor="@color/colorAccent"
+                    custom:circleLabel="XS"
+                    custom:enabled="false"
+                    custom:labelColor="@color/black" />
+
+                <com.foursquad.ottimashopping.utils.CheckView
+                    android:id="@+id/s"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    custom:circleColor="@color/colorAccent"
+                    custom:circleLabel="S"
+                    custom:enabled="false"
+                    custom:labelColor="@color/black" />
+
+                <com.foursquad.ottimashopping.utils.CheckView
+                    android:id="@+id/m"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    custom:circleColor="@color/colorAccent"
+                    custom:circleLabel="M"
+                    custom:enabled="false"
+                    custom:labelColor="@color/black" />
+
+                <com.foursquad.ottimashopping.utils.CheckView
+                    android:id="@+id/l"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    custom:circleColor="@color/colorAccent"
+                    custom:circleLabel="L"
+                    custom:enabled="false"
+                    custom:labelColor="@color/black" />
+
+                <com.foursquad.ottimashopping.utils.CheckView
+                    android:id="@+id/xl"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone"
+                    custom:circleColor="@color/colorAccent"
+                    custom:circleLabel="XL"
+                    custom:enabled="false"
+                    custom:labelColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/sellP"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/green"
+                android:textSize="22sp"
+                tools:background="@color/deep_orange"
+                tools:text="50$" />
+
+            <TextView
+                android:id="@+id/buyP"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/red"
+                android:textSize="18sp"
+                tools:background="@color/blue"
+                tools:text="50$" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

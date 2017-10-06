@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Ottima Shopping</string>
+    <string name="action_settings">Nouvelle Commande</string>
+
+    <string-array name="taille">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <string-array name="type">
+
+        <item>Ballerines</item>
+        <item>Baskets</item>
+        <item>Bas/collants</item>
+        <item>Blousons</item>
+        <item>Bottes</item>
+        <item>Bottines et boots</item>
+        <item>Bretelles</item>
+        <item>Ceintures</item>
+        <item>Chaussons</item>
+        <item>Chaussures à lacets</item>
+        <item>Chaussures de sport</item>
+        <item>Chaussettes</item>
+        <item>Chaussures à scratch</item>
+        <item>Combinaisons</item>
+        <item>Escarpins</item>
+        <item>Espadrilles</item>
+        <item>Gilets</item>
+        <item>Imperméables</item>
+        <item>Les chaussures</item>
+        <item>Mocassins</item>
+        <item>Mules et sabots</item>
+        <item>Pantalons</item>
+        <item>Pulls polaires</item>
+        <item>Sandales et nu-pieds</item>
+        <item>Sous-chemises</item>
+        <item>Sous-vêtements</item>
+        <item>Sweat-shirts</item>
+        <item>Tee-shirts</item>
+        <item>Tongs</item>
+        <item>Vestes</item>
+
+    </string-array>
+
+    <string name="colour_disponible">Colour Disponible : </string>
+    <string name="saison">Saison :</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Diagramme en camembert</string>
+    <string name="tab_text_2">Statistique</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Main</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

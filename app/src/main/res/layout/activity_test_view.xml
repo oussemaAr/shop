@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foursquad.ottimashopping.test.TestView">
+
+    <com.foursquad.ottimashopping.utils.CheckView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        custom:circleColor="@color/colorAccent"
+        custom:circleLabel="XL"
+        custom:labelColor="@color/black"
+        custom:layout_constraintLeft_toLeftOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
